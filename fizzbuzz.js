@@ -10,22 +10,21 @@ function fizzBuzz() {
 	var num = 0;
 	for (num; num <= 100; num++) {
 		if (num % 3 == 0 && num % 5 == 0) {
-			createButton("fizzbuzz", "btn btn-success spacing");
+			createButton("FizzBuzz", "theFizzBuzz col-xs-3 col-sm-3 col-md-3 col-lg-3");
 		}
 		else if (num % 3 == 0 && num % 5 != 0) {
-			createButton("fizz", "btn btn-primary spacing");
+			createButton("Fizz", "theFizz col-xs-3 col-sm-3 col-md-3 col-lg-3");
 		}
 		else if (num % 5 == 0 && num % 3 != 0) {
-			createButton("buzz", "btn btn-danger spacing");
+			createButton("Buzz", "theBuzz col-xs-3 col-sm-3 col-md-3 col-lg-3");
 		}
 		else {
-			createButton(num, "btn btn-default spacing");
+			createButton(num, "theNum col-xs-3 col-sm-3 col-md-3 col-lg-3");
 		}
 	}
 	function createButton(message, styling){
-		var makeElement = document.createElement('button');
+		var makeElement = document.createElement('div');
 		var grabID = document.getElementById('fillDiv');
-		console.log(grabID);
 		var makeChild = grabID.appendChild(makeElement);
 		makeElement.innerHTML = message; 
 		makeElement.className = styling; 

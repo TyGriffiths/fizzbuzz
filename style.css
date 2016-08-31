@@ -1,3 +1,57 @@
-.spacing {
-	margin: 1em;
+.theFizz {
+	background-color: #679CE3;
+	height: 200px;
+	width: 200px;
+	font-size: 2em;
+	text-align: center;
+	border-radius: 50%;
+	line-height: 200px;
+	margin: 20px;
+	transition: all .2s ease-in-out;
+}
+.theFizz:hover {
+	transform: scale(1.1);
+	background-color: #229CE3;
+}
+.theBuzz {
+	background-color: #D96704;
+	height: 200px;
+	width: 200px;
+	font-size: 2em;
+	text-align: center;
+	border-radius: 50%;
+	line-height: 200px;
+	margin: 20px;
+}
+.theBuzz:hover {
+	transform: scale(1.1);
+	background-color: #FF8D00;
+}
+.theFizzBuzz {
+	background-color: #189C16;
+	height: 200px;
+	width: 200px;
+	font-size: 2em;
+	text-align: center;
+	border-radius: 50%;
+	line-height: 200px;
+	margin: 20px;
+}
+.theFizzBuzz:hover {
+	transform: scale(1.1);
+	background-color: #1EBD1B;
+}
+.theNum {
+	background-color: #9812C4;
+	height: 200px;
+	width: 200px;
+	font-size: 2em;
+	text-align: center;
+	border-radius: 50%;
+	line-height: 200px;
+	margin: 20px;
+}
+.theNum:hover {
+	transform: scale(1.1);
+	background-color: #BF16F7;
 }
